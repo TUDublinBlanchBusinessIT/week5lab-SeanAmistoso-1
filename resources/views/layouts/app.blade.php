@@ -18,9 +18,6 @@
           <div class="container-fluid">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" href=https://laravel.com/docs>Laravel Documentation</a>
-              </li>
-              <li class="nav-item">
                 <a class="nav-link" href={{ route ('members.index')}}>Member List</a>
               </li>
 
