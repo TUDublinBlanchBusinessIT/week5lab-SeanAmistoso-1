@@ -21,8 +21,21 @@
                 <a class="nav-link" href=https://laravel.com/docs>Laravel Documentation</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href=https://laracasts.com/>Laravel Video Tutorials</a>
+                <a class="nav-link" href={{ route ('members.index')}}>Member List</a>
               </li>
+
+              <li class="nav-item">
+              <a class="nav-link" href={{ route ('members.create')}}>Add member</a>
+              </li>
+
+              <li class="nav-item">
+              <a class="nav-link" href={{ route ('booking.create')}}>Create Bookings</a>
+              </li>
+
+              <li class="nav-item">
+              <a class="nav-link" href={{ route ('courts.create')}}>Create Courts</a>
+              </li>
+
             </ul>
           </div>
         </nav>
